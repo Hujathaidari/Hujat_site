@@ -2,42 +2,77 @@
 <html>
 <head>
   <title>Hujat | Web Developer</title>
-
   <style>
-    body {
-      margin: 0;
-      font-family: Arial;
-      background: #111;
-      color: white;
-    }
 
-    header {
-      background: #00ffcc;
-      color: black;
-      padding: 15px;
-      text-align: center;
-    }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #111, #1f1f1f);
+  color: white;
+}
 
-    section {
-      padding: 30px;
-      text-align: center;
-    }
+header {
+  background: linear-gradient(90deg, #00ffcc, #00ccff);
+  color: black;
+  padding: 25px;
+  text-align: center;
+}
 
-    .box {
-      margin: 20px auto;
-      padding: 20px;
-      width: 80%;
-      background: #222;
-      border-radius: 10px;
-    }
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
 
-    button {
-      padding: 10px 20px;
-      background: #00ffcc;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
+.box {
+  margin: 20px auto;
+  padding: 25px;
+  width: 90%;
+  max-width: 500px;
+  background: #222;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,255,204,0.2);
+  transition: 0.3s;
+}
+
+.box:hover {
+  transform: scale(1.03);
+}
+
+button {
+  padding: 12px 25px;
+  background: linear-gradient(90deg, #00ffcc, #00ccff);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* 🔥 استایل عکس لوگو */
+header img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid white;
+  box-shadow: 0 0 15px rgba(0, 255, 204, 0.7);
+  transition: 0.3s;
+}
+
+/* ✨ افکت هاور */
+header img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 25px rgba(0, 255, 204, 1);
+}
+
   </style>
 
 </head>
@@ -45,10 +80,13 @@
 <body>
 
 <header>
-  <h1>حجت حیدری</h1>
-  <p>طراح سایت | در حال یادگیری 🚀</p>
-</header>
 
+  <img src="hujat.png" width="120">
+
+  <h1>حجت حیدری</h1>
+
+  <p>طراح سایت | 🚀</p>
+</header>
 <section>
   <div class="box">
     <h2>درباره من</h2>
